@@ -28,8 +28,15 @@ public class nextgreaterElement {
         }
 
 
+
         
         
     }
+
+    //next greater right
+    //next greater left  ( change in loop ) 
+    //next smaller right (condition change arr[s.peek()]<=arr[i]))
+    //next smaller left (change in loop and condition )
+
     
 }
