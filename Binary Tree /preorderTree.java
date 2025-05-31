@@ -1,4 +1,4 @@
-public class preorderTree{
+public class binaryTree{
     static class Node{ // creating node 
         int data;
         Node left;
