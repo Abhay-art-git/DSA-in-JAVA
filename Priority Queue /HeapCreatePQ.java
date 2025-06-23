@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 
 public class HeapCreatePQ {
-
+                                                                                  // max heap create we change some login 
     static class Heap{
         ArrayList<Integer> arr = new ArrayList<>();
 
@@ -12,7 +12,7 @@ public class HeapCreatePQ {
             int ch = arr.size()-1;  // child index
             int par = (ch-1)/2;     // parent index
 
-            while(arr.get(ch)<arr.get(par)){  //swap parent child   O(log(n))
+            while(arr.get(ch)<arr.get(par)){  //swap parent child   O(log(n))                   // max heap create we change some login (>)
                 int temp = arr.get(ch);
                 arr.set(ch , arr.get(par));
                 arr.set(par , temp);
@@ -31,11 +31,11 @@ public class HeapCreatePQ {
             int right = 2*i+2;
             int minidx = i ;// root 
 
-            if(left <arr.size()&& arr.get(minidx)>arr.get(left)){
+            if(left <arr.size()&& arr.get(minidx)>arr.get(left)){         // max heap create we change some login  (<)
                 minidx = left;
             }
 
-             if(right <arr.size()&& arr.get(minidx)>arr.get(right)){
+             if(right <arr.size()&& arr.get(minidx)>arr.get(right)){      // max heap create we change some login  (<)
                 minidx = right;
             }
 
