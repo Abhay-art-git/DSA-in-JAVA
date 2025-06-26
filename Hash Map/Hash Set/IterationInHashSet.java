@@ -18,6 +18,13 @@ public class IterationInHashSet {
         System.out.println(it.next()); 
           
       }
+   // method for using for each loop for iteration 
+         for(String city : hs){
+        System.out.println(city);
+      }
+
+
+        
           
 
     }
