@@ -8,8 +8,7 @@ public class BFSinGraph {
         public Edge(int s , int d , int w ){
             this.src = s;
             this.dst = d;
-            this.wt = w;
-          
+            this.wt = w;          
         }
     }
 
