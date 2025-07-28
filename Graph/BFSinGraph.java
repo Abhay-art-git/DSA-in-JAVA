@@ -73,10 +73,6 @@ public class BFSinGraph {
     int v =7;
     ArrayList<Edge> graph[] = new ArrayList[v];
     CreateGraph(graph); 
-    bfs(graph);
-        
-        
-        
-    }
-    
+    bfs(graph);   
+    }    
 }
