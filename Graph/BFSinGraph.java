@@ -12,6 +12,7 @@ public class BFSinGraph {
         }
     }
 
+    
     public static void CreateGraph(ArrayList<Edge> Graph[] ){
         /*
          *         1 ------ 3 
@@ -67,6 +68,7 @@ public class BFSinGraph {
             }   
         }
 
+        
     }
     public static void main(String[] args) {
     int v =7;
